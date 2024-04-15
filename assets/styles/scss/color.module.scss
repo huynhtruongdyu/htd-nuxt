@@ -1,9 +1,16 @@
 $color-white: #fff;
+$color-white-1: #F3F3F3;
+$color-white-2: #f9f9f9;
 $color-black: #000;
+$color-black-1: #202020;
 
 $colors: (
-  "white": $color-white,
-  "black": $color-black,
+        "white": $color-white,
+        "white-1":$color-white-1,
+        "white-2":$color-white-2,
+
+        "black": $color-black,
+        "black-1": $color-black-1,
 );
 
 :export {
@@ -11,9 +18,3 @@ $colors: (
     #{unquote($key)}: $value;
   }
 }
-
-// @each $color, $value in $theme-colours {
-//   :export {
-//     $color: $value;
-//   }
-// }

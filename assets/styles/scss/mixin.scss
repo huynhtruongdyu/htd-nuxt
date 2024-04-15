@@ -1,0 +1,10 @@
+@mixin d-flex-center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin pos-sticky {
+  position: sticky;
+  top: 0;
+}
