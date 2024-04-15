@@ -1,0 +1,19 @@
+$color-white: #fff;
+$color-black: #000;
+
+$colors: (
+  "white": $color-white,
+  "black": $color-black,
+);
+
+:export {
+  @each $key, $value in $colors {
+    #{unquote($key)}: $value;
+  }
+}
+
+// @each $color, $value in $theme-colours {
+//   :export {
+//     $color: $value;
+//   }
+// }

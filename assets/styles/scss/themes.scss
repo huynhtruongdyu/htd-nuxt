@@ -1,0 +1,13 @@
+@import "color.module.scss";
+
+:root {
+  --background-color: #{$color-white};
+  --text-color: #{$color-black};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #{$color-black};
+    --text-color: #{$color-white};
+  }
+}
