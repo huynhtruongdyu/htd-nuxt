@@ -5,4 +5,10 @@ export default defineNuxtConfig({
   alias: {
     "@/styles/*": "./assets/styles/scss/*",
   },
+  router: {
+    options: {
+      linkActiveClass: "active",
+      linkExactActiveClass: "exact-active",
+    },
+  },
 });

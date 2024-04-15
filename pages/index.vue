@@ -1,9 +1,8 @@
 <template>
-
   <div style="height: 500px">
     <h1>hello world</h1>
   </div>
-  <div style="height: 500px;" id="div-sticky">
+  <div style="height: 500px" id="div-sticky">
     <h1>hello world</h1>
   </div>
   <div style="height: 500px">
@@ -18,9 +17,8 @@
 </template>
 <style lang="scss" scoped>
 @import "../assets/styles/scss/mixin.scss";
-div#div-sticky{
+div#div-sticky {
   @include pos-sticky;
 }
 </style>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>

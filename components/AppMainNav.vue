@@ -1,14 +1,11 @@
 <template>
   <nav class="main_navbar">
     <div class="main_navbar--top">
-      <AppMainNavItem name="home" href="/" />
-      <AppMainNavItem name="home" href="/" />
-      <AppMainNavItem name="home" href="/" />
-      <AppMainNavItem name="home" href="/" />
+      <AppMainNavItem name="Home" href="/" />
+      <AppMainNavItem name="Apps" href="/apps" />
     </div>
     <div class="main_navbar--bottom">
-      <AppMainNavItem name="home" href="/" />
-      <AppMainNavItem name="home" href="/" />
+      <AppMainNavItem name="About" href="/about" />
     </div>
   </nav>
 </template>

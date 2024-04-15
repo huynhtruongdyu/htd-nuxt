@@ -1,9 +1,9 @@
 <template>
-  <AppHeader/>
+  <AppHeader />
   <main>
-    <AppMainNav/>
+    <AppMainNav />
     <article>
-      <slot/>
+      <slot />
     </article>
   </main>
 </template>
@@ -26,5 +26,4 @@ main {
     scroll-behavior: smooth;
   }
 }
-
 </style>

@@ -1,8 +1,8 @@
 <!-- TEMPALTE -->
 <template>
-  <div class="main_navbar__item">
-    <NuxtLink :to="props.href">{{ props.name }}</NuxtLink>
-  </div>
+  <NuxtLink class="main_navbar__item" :to="props.href">
+    <small>{{ props.name }}</small>
+  </NuxtLink>
 </template>
 
 <!-- STYLES -->
@@ -15,8 +15,10 @@
   border-radius: 2px;
   background-color: gray;
   @include d-flex-center-all;
-  a {
-    @include link-deco-none;
+  @include link-deco-none;
+
+  &.active {
+    background-color: red;
   }
 }
 </style>
