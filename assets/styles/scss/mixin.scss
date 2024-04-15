@@ -8,3 +8,14 @@
   position: sticky;
   top: 0;
 }
+
+@mixin txt-deco-none {
+  text-decoration: none;
+}
+
+@mixin link-deco-none {
+  @include txt-deco-none;
+  a:visited {
+    color: inherit;
+  }
+}
